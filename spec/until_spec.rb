@@ -7,4 +7,3 @@ describe "#using_until" do
 	  expect{ using_until }.to output(looping_string).to_stdout
   end
 end
-end
